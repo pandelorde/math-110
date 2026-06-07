@@ -1,0 +1,18 @@
+# m < e / h
+#this part is to check for k_min and k_crit
+m_hu = e/h
+k_min = m / (a * (e - h * m))
+k_crit = (e+h*m)/(a*h*(e-h*m))
+
+print(m_hu)
+print(k_min)
+print(k_crit)
+
+
+
+#this part is to check equilibrium.
+
+R_star = m / ((e - h * m) * a)
+C_star = (e * r * (a * K * (e - h * m) - m)) / (K * ((e - h * m) ** 2) * (a ** 2))
+
+print(R_star, C_star)
